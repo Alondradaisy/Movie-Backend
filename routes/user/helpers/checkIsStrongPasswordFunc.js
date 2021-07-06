@@ -1,3 +1,4 @@
+//helper function that check password strength with path
 const { checkIsStrongPassword } = require("../../utils/authMethods");
 
 function checkIsStrongPasswordFunc(req, res, next) {
@@ -15,4 +16,4 @@ function checkIsStrongPasswordFunc(req, res, next) {
   next();
 }
 
-module.exports = checkIsStrongPasswordFunc;
+module.exports = checkIsStrongPasswordFunc; //runs this strength test

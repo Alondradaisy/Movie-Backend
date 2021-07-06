@@ -1,3 +1,4 @@
+//userSchema with input field types
 const mongoose = require("mongoose");
 
 const userSchema = new mongoose.Schema({
@@ -20,4 +21,4 @@ const userSchema = new mongoose.Schema({
   },
 });
 
-module.exports = mongoose.model("user", userSchema);
+module.exports = mongoose.model("user", userSchema); //run the mongoose userSchema
